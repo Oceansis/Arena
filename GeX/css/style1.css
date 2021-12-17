@@ -157,7 +157,7 @@ padding: 25px 60px 0 130px;
 
 
 .project__item{
-    width: 30%;
+    width: 390px;
     padding: 0 60px;
     margin-bottom: 30px;
 }
@@ -194,6 +194,129 @@ line-height: 22px;
 color: #999999;
 
 }
+
+.request{
+    display: flex;
+    justify-content: space-around ;
+    height: 181px;
+    background: #F7654A;
+    text-align: center;
+    align-items: baseline;
+}
+
+.request__text{
+    text-transform: uppercase;
+    margin: 15px;
+max-width: 600px;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+span{
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+}
+
+.request__icon{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    left: -161px;
+    width: 185px;
+    height: 49px;
+    background: #FFFFFF;
+}
+
+.request__icon-text{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+text-transform: uppercase;
+
+letter-spacing: 0.02;
+
+color: #000000;
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+}
+
+.work__header{
+    padding-top: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #000000;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 66px;
+    max-width: 1110px;
+    max-height: 639px;
+}
+
+.work__item{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+}
+
+.work__icon{
+    width: 60px;
+height: 40px;
+}
+
+.work__title{
+    margin: 0 auto ;
+    width: 172px;
+    padding-top: 30px;
+height: 62px;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.work__photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work__photos{
+    width: 25%;
+    height: 350px;
+
+    border-bottom: 1px; 
+    border-right: 1px; 
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
 
 
 
