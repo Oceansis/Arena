@@ -382,7 +382,7 @@ color: #999999;
 }
 
 .partner{
-    min-width: 1900px;
+    max-width: 1900px;
     height: 364px;
     background:  #404149;
 }
